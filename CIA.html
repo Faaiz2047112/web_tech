@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+.container2 {
+  position: relative;
+  width: 50%;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+
+<p>Hover over the image to see the description of the places.</p>
+
+<div class="container">
+  <img src="Mumbai.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Mumbai, previously known as Bombay is one of the most populous and biggest cities of Maharashtra. Also the biggest metropolis of this state, Mumbai is also popular as the entertainment and financial capital. It is the largest city of India and fondly called as the city of dreams.</div>
+  </div>
+</div>
+<div class="container1">
+  <img src="Rajasthan.jpg" alt="Avatar" class="image2">
+  <div class="overlay1">
+    <div class="text">Introduction. Rajasthan is located in northwestern India, bounded on the west and northwest by Pakistan and shares domestic borders with the states of Punjab, Haryana, Uttar Pradesh, Madhya Pradesh and Gujarat. With a land area of 342,239 sq km, Rajasthan is the largest state in India geographically.</div>
+  </div>
+</div>
+<div class="container2">
+  <img src="Bangalore.jpg" alt="Avatar" class="image3">
+  <div class="overlay2">
+    <div class="text">Bangalore, also known as Bengaluru (Kannada) is the capital of the Indian State of Karnataka. Bangalore is nicknamed the Garden City and was once called a Pensioner's Paradise. Located on the Deccan Plateau in the south-eastern part of Karnataka, Bangalore is India's third most populous city.</div>
+  </div>
+</div>
+<p> for videos </p>
+<video width="400" controls>
+  <source src="10 Best Places to Visit in India - Travel Video.mp4" type="video/mp4">
+ 
+  Your browser does not support HTML video.
+</video>
+</body>
+</html>
